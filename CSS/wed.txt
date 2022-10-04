@@ -1,0 +1,1 @@
+logo :   <link rel="icon" href="https://cloudfront.tourkrub.co/uploads/ckeditor/pictures/4566/content_%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B8%AB%E0%B8%A7%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5_2.jpg">

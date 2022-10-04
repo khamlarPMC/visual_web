@@ -1,0 +1,252 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.textheader {
+    width: 1111px;
+    margin: 0 auto;
+}
+
+
+
+.menubar {
+    width:100% ;
+    height: 1.25cm;
+    background: pink;
+    box-shadow: 0 0 10px #ff009d;
+}
+    
+.menubar h1 {
+    margin: 0ex;
+    font-size: 24;
+    font-weight: unset;
+    padding-top: 5px;
+    color:  #bd3c87;
+}
+
+.menubar ul.menu {
+    list-style: none;
+}
+.menubar ul.menu li {
+    float: right;
+    margin-left: 20px;
+}
+.menubar ul.menu li a {
+    text-decoration: none;
+    color: #bd3c87;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease
+}
+.menubar ul.menu li a:hover {
+    border-bottom: 2px solid #ca2276;
+    padding-bottom: 0px;
+
+}
+.haeder {
+    width: 100%;
+    background: url(../CSS/background.jpg)no-repeat;
+    height: 250px;
+    background-size: cover;
+    background-position: right;
+}
+.clearfix {
+    clear: both;
+}
+.haeder_area {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(158, 48, 90);
+
+    
+}
+.haeder_area h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    border-radius: 3px 3px 3px 3px;
+}
+
+
+.menuitems ul{
+    list-style: none;
+    background-color: pink;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.menuitems li{
+    font-size: 10;
+    line-height: 20px;
+    text-align: center;
+
+}
+.menuitems a{
+    text-decoration: none;
+    color: #bd3c87;
+    display: block;
+    padding-left: 15px;
+    border-bottom: 1px solid #888888;
+    transition: .3s;
+}
+.menuitems a:hover{
+    background-color: rgb(187, 125, 187);
+}
+/*style menu for lager screens */
+
+    @media screen and (min-width: 650px){
+        .menuitems li{
+            width: 140px;
+            border-bottom: none;
+            height: 7px;
+            line-height: 7px;
+            font-size: 1.1em;
+            display: inline-block;
+            margin-right: -4px;
+        }
+        .menuitems a{
+            border-bottom: none;
+        }
+        .menuitems > ul > li {
+            text-align: center;
+        }
+        .menuitems > ul > li > a{
+            padding-left: 0px;
+        }
+    }
+ 
+.container {
+    width: 900px;
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+.section_area_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    
+}
+.section_grid_item {
+    text-align: center;
+}
+.section_item_img img {
+    width: 90%;
+}
+.section_item_text a{
+    list-style: none;
+    text-decoration: none;
+    color: #bd3c87;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 20px;
+    transition: all 0.3s ease
+}
+
+.infromation_product {
+    box-shadow: 0 4px 8px 0 rgba(240, 183, 225, 0.808);
+    max-width: 900px;
+    margin: auto;
+    text-align:center;
+    font-family: arial;
+  }
+
+  .infromation_product {
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  .price_product {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .infromation_product button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: rgb(230, 182, 182);
+    background-color: rgb(165, 80, 146);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .infromation_product button:hover {
+    opacity: 0.7;
+  }
+
+
+footer{
+    background: rgb(253, 153, 170);
+    height: auto;
+    width: 100vw;
+    font-family: "open sans";
+    padding-top: 40px ;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    text-align: center;
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.footer-bottom {
+    background: rgb(128, 73, 91);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+.nextpage {
+    border: 0px;
+    padding: 0px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: rgb(255, 176, 209);
+    color: black;
+  }
+  
+  .next {
+    background-color: #c0228b;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  .about_1{
+      text-align: center;
+  }
